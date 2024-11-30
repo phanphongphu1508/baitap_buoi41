@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: baitap
+  datasource:
+    url: jdbc:mysql://localhost:1508/jpa
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: none
